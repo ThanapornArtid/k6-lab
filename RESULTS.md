@@ -10,6 +10,7 @@
 'p(99)<1500' p(99)=535.29ms'
 change 'p(95)<1000' to 'p(95)<100' get exit code 99.
 - Step 0.8, what was wrong, and how the checks showed it:
+The request used lowercase names, 'pepperoni' and 'knife', but explore.js showed that the API uses "Pepperoni" and "Knife".
     ✗ no pepperoni
       ↳  89% — ✓ 67 / ✗ 8
     ✗ no knife needed
