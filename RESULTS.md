@@ -22,7 +22,7 @@ The request used lowercase names, 'pepperoni' and 'knife', but explore.js showed
 | Step | Test type    | Users | Req/s | p(95) |  Max  | Failed | Checks |
 | ---- | ------------ | ----- | ----- | ----- |  ---  | ------ | ------ |
 | A1   | Smoke        | 1     | 0.46  |448.52 | 479.76| 0.00%  |100.00% |
-| A2   | Average load | 3     |       |       |     |        |        |
+| A2   | Average load | 3     | 1.26  |434.34 | 820.35| 0.00%  |100.00% |
 | A3   | Stress       | 5     |       |       |     |        |        |
 | A4   | Spike        | 5     |       |       |     |        |        |
 | A5   | Soak         | 2     |       |       |     |        |        |
