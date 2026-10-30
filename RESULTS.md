@@ -9,7 +9,12 @@
 'p(95)<1000' p(95)=489.86ms'
 'p(99)<1500' p(99)=535.29ms'
 change 'p(95)<1000' to 'p(95)<100' get exit code 99.
-- Step 0.8, what was wrong, and how the checks showed it: 
+- Step 0.8, what was wrong, and how the checks showed it:
+    ✗ no pepperoni
+      ↳  89% — ✓ 67 / ✗ 8
+    ✗ no knife needed
+      ↳  72% — ✓ 54 / ✗ 21
+
 
 ## Part A results
 
